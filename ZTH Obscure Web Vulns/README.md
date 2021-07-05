@@ -11,9 +11,7 @@ Learn and practice exploiting a range of unique web vulnerabilities such as SSTI
 - Json Web Token (JWT)
 - XML External Entity Injection (XXE)
 
-## Appendix archive
 
-Password: `1 kn0w 1 5h0uldn'7!`
 
 ## Task 1 Introduction
 

@@ -4,16 +4,6 @@ Identify recent vulnerabilities to try exploit the system or read files that you
 
 [tomghost](https://tryhackme.com/room/tomghost)
 
-## Topic's
-
-- Network Enumeration
-- CVE-2020-1938 - Apache Tomcat
-- Brute Forcing (GPG)
-- Misconfigured Binaries
-
-## Appendix archive
-
-Password: `1 kn0w 1 5h0uldn'7!`
 
 ## Flags
 

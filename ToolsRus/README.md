@@ -4,13 +4,6 @@ Practise using tools such as dirbuster, hydra, nmap, nikto and metasploit
 
 [ToolsRus](https://tryhackme.com/room/toolsrus)
 
-## Topic's
-
-* Web Enumeration
-* Web Application Analysis
-* Network Enumeration
-* Brute Forcing HTTP-GET
-* Exploiting Tomcat
 
 ## Task 1 ToysRus
 
