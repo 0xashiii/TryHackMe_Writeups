@@ -113,7 +113,7 @@ Not only this, but TCP incorporates error checking into its design. Error checki
 Let's summarise the advantages and disadvantages of TCP in the table below:
 
 
-![[Pasted image 20210702234847.png]]
+![](Pastedimage20210702234847.png)
 
 
 TCP is used for situations such as file sharing, internet browsing or sending an email. This usage is because these services require the data to be accurate and complete (no good having half a file!).
@@ -126,7 +126,7 @@ Now let's move onto the **U**ser **D**atagram **P**rotocol (or UDP for short). 
 
 Whilst this sounds disadvantageous, it does have its merits, which we'll layout in the table below:
 
-![[Pasted image 20210702235017.png]]
+![](Pastedimage20210702235017.png)
 
 Using the same example as before, we can now see that only Packets #1 and #3 have been received by the "Computer", meaning that half of the image is missing.  
 

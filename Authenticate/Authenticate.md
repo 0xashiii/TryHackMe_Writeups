@@ -24,7 +24,7 @@ Now let me show you an example using the Burp Suite**:**
 
 **4)** Start the attack and wait for a bit. If you did everything correctly you'll notice that one of the requests sent by an intruder will have a bigger response then all of the others.
 
-![[yv973xd.png]]
+![](yv973xd.png)
 
 As you can see in the above screenshot that on the 5th request the length value is **530** and the length of the content in other requests is 480. This could mean that the burp was able to successfully login in **Jack's** account using the password **12345678.**
 
@@ -47,7 +47,7 @@ fad9ddc1feebd9e9bca05f02dd89e271
 
 **What is the flag you found after logging as Mike?**
 
-![[Pasted image 20210607110209.png]]
+![](Pastedimage20210607110209.png)
 
 
 
@@ -182,4 +182,4 @@ The chance of finding this kind of vulnerability is very low but it could be a v
 **What is the flag you found in superadmin account?**
 `72102933396288983011`
 
-![[Pasted image 20210607120249.png]]
+![](Pastedimage20210607120249.png)

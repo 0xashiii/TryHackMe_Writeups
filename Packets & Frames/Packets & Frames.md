@@ -18,7 +18,7 @@ Let's continue with our example of the Internet Protocol. A packet using this pr
 
 Some notable headers include:
 
-![[Pasted image 20210703002118.png]]
+![](Pastedimage20210703002118.png)
 
 **Answer the questions below**
 
@@ -53,15 +53,15 @@ One defining feature of TCP is that it is **connection-based**, which means that
   
 Because of this, TCP guarantees that any data sent will be received on the other end. This process is named the Three-way handshake, which is something we'll come on to discuss shortly. A table comparing the advantages and disadvantages of TCP is located below:
 
-![[Pasted image 20210703002437.png]]
+![](Pastedimage20210703002437.png)
 
 TCP packets contain various sections of information known as headers that are added from encapsulation. Let's explain some of the crucial headers in the table below:
 
-![[Pasted image 20210703002503.png]]
+![](Pastedimage20210703002503.png)
 
 Next, we'll come on to discuss the _Three-way handshake -_ the term given for the process used to establish a connection between two devices. The Three-way handshake communicates using a few special messages - the table below highlights the main ones:
 
-![[Pasted image 20210703002531.png]]
+![](Pastedimage20210703002531.png)
 
 The diagram below shows a normal Three-way handshake process between Alice and Bob. In real life, this would be between two devices.
 
@@ -75,7 +75,7 @@ Any sent data is given a random number sequence and is reconstructed using this 
 2.  SYN/ACK - Server: Here's my Initial Number Sequence (ISN) to SYNchronise with (5,000), and I ACKnowledge your initial number sequence (0)
 3.  ACK - Client: I ACKnowledge your Initial Number Sequence (ISN) of (5,000), here is some data that is my ISN+1 (5,000 + 1)
 
-![[Pasted image 20210703002605.png]]
+![](Pastedimage20210703002605.png)
 
 **TCP Closing a Connection:**
 
@@ -124,13 +124,13 @@ Unlike its brother TCP, UDP is a **stateless** protocol that doesn't require a c
 
 Recall some of the comparisons made about these two protocols in Room 3: "OSI Model". Namely, UDP is used in situations where applications can tolerate data being lost (such as video streaming or voice chat) or in scenarios where an unstable connection is not the end-all. A table comparing the advantages and disadvantages of UDP is located below:
 
-![[Pasted image 20210703003026.png]]
+![](Pastedimage20210703003026.png)
 
 As mentioned, no process takes place in setting up a connection between two devices. Meaning that there is no regard for whether or not data is received, and there are no safeguards such as those offered by TCP, such as data integrity.
 
 UDP packets are much simpler than TCP packets and have fewer headers. However, both protocols share some standard headers, which are what is annotated in the table below:
 
-![[Pasted image 20210703003100.png]]
+![](Pastedimage20210703003100.png)
 
 Next, we'll come on to discuss how the process of a connection via UDP differs from that of something such as TCP.  We should recall that UDP is **stateless**. No acknowledgement is sent during a connection.
 
@@ -177,7 +177,7 @@ This means that all web browsers now share one common rule: data is sent over po
 
 While the standard rule for web data is _port 80_, a few other protocols have been allocated a standard rule. Any port that is within **0** and **1024** (1,024) is known as a common port. Let's explore some of these other protocols below:
 
-![[Pasted image 20210703003433.png]]
+![](Pastedimage20210703003433.png)
 
 We have only briefly covered the more common protocols in cybersecurity. You can [find a table of the 1024 common ports listed](http://www.vmaxx.net/techinfo/ports.htm) for more information.
 

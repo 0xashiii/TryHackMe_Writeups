@@ -96,7 +96,7 @@ IP Addresses follow a set of standards known as protocols. These protocols are t
 A public address is used to identify the device on the Internet, whereas a private address is used to identify a device amongst other devices. Take the table & screenshot below as an example. Here we have two devices on a private network:
 
   
-![[Pasted image 20210702102608.png]]
+![](Pastedimage20210702102608.png)
 
 
   
@@ -157,7 +157,7 @@ Deploy the interactive lab and proceed to answer the following questions below.
 
 Click on the view site
 
-![[Pasted image 20210702102830.png]]
+![](Pastedimage20210702102830.png)
 
 You can see the request of Alice is going to the server and MAC Address is `00:12:32:2F:33:39` 
 But if you send the request from Bob to the sever it will reject and goes into the trash so we need to change the MAC Address of Bob from `04:9E:44:99:A3:12` to `00:12:32:2F:33:39`  and send the request and you got the flag!
@@ -203,7 +203,7 @@ Now you are going to do the same thing to ping the address of "**8.8.8.8**" on t
 
 3. What flag do you get when you ping 8.8.8.8?
 
-![[Pasted image 20210702103439.png]]
+![](Pastedimage20210702103439.png)
 
 *ANSWER:*  `THM{*******************}`
 

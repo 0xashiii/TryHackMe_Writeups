@@ -148,7 +148,7 @@ In this task, we're going to learn some more commands for interacting with the f
 
 More specifically, the following commands:
 
-![[Pasted image 20210705130931.png]]
+![](Pastedimage20210705130931.png)
 
 _Protip: Similarly to using cat, we can provide full file paths, i.e. directory1/directory2/note for all of these commands_
 

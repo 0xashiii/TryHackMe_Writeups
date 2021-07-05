@@ -133,7 +133,7 @@ Working on a model of SOURCE and DESTINATION, SCP allows you to:
 
 Provided that we know usernames and passwords for a user on your current system and a user on the remote system. For example, let's copy an example file from our machine to a remote machine, which I have neatly laid out in the table below:
 
-![[Pasted image 20210705132236.png]]
+![](Pastedimage20210705132236.png)
 
 With this information, let's craft our `scp` command (remembering that the format of SCP is just SOURCE and DESTINATION)
 
@@ -141,7 +141,7 @@ With this information, let's craft our `scp` command (remembering that the forma
 
 And now let's reverse this and layout the syntax for using `scp` to copy a file from a remote computer that we're not logged into
 
-![[Pasted image 20210705132259.png]]
+![](Pastedimage20210705132259.png)
 
 
 The command will now look like the following: `scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt` 
@@ -329,7 +329,7 @@ We're going to be talking about the `cron` process, but more specifically, how w
 
 A crontab is simply a special file with formatting that is recognised by the `cron` process to execute each line step-by-step. Crontabs require 6 specific values
 
-![[Pasted image 20210705133121.png]]
+![](Pastedimage20210705133121.png)
 
 Let's use the example of backing up files. You may wish to backup "cmnatic"'s  "Documents" every 12 hours. We would use the following formatting: 
 

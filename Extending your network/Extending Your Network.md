@@ -47,7 +47,7 @@ Firewalls come in all shapes and sizes. From dedicated pieces of hardware (often
 
  We'll cover the two primary categories of firewalls in the table below:
  
- ![[Pasted image 20210703115709.png]]
+ ![](Pastedimage20210703115709.png)
  
 
  **Answer the questions below**
@@ -96,7 +96,7 @@ The devices connected on Network #3 are still a part of Network #1 and Network #
 
  Let's cover some of the other benefits offered by a VPN in the table below:
  
- ![[Pasted image 20210703115931.png]]
+ ![](Pastedimage20210703115931.png)
  
  TryHackMe uses a VPN to connect you to our vulnerable machines without making them directly accessible on the Internet! This means that:
 
@@ -106,7 +106,7 @@ The devices connected on Network #3 are still a part of Network #1 and Network #
 
 VPN technology has improved over the years. Let's explore some existing VPN technologies below:
 
-![[Pasted image 20210703120002.png]]
+![](Pastedimage20210703120002.png)
  
 **Answer the questions below**
 

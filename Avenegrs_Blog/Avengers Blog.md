@@ -33,7 +33,7 @@ You can view & dynamically update your cookies directly in your browser. To do t
 
 1. On the deployed Avengers machine you recently deployed, get the flag1 cookie value.
 
-![[Pasted image 20210612142123.png]]
+![](Pastedimage20210612142123.png)
 
 *ANSWER:* cookie_secrets
 
@@ -53,7 +53,7 @@ We can view requests made to and from our browser by opening the _Developer Tool
 
 1. Look at the HTTP response headers and obtain flag 2.
 
-![[Pasted image 20210612144454.png]]
+![](Pastedimage20210612144454.png)
 
 *ANSWER:* headers_are_important
 
@@ -205,7 +205,7 @@ But oh-no! The cat command is disallowed! We will have to think of another Linux
 
 
 
-![[Pasted image 20210612150413.png]]
+![](Pastedimage20210612150413.png)
 `cd ../; ls; cat flag5.txt` = it's says command disallow
 
 so we can read the file in reverse
@@ -213,7 +213,7 @@ so we can read the file in reverse
 `cd ../; ls; tac flag5.txt`
 
 
-![[Pasted image 20210612150554.png]]
+![](Pastedimage20210612150554.png)
 
 *ANSWER:* d335e2d13f36558ba1e67969a1718af7
 

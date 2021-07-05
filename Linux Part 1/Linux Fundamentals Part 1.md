@@ -87,7 +87,7 @@ We need to be able to do basic functions like navigate to files, output their co
 Let's get started with two of the first commands which I have broken down in the table below:
 
 
-![[Pasted image 20210705123913.png]]
+![](Pastedimage20210705123913.png)
 
   
 
@@ -129,7 +129,7 @@ In this task, we're going to be learning the commands so that we can do just tha
 
 As I previously stated, being able to navigate the machine that you are logged into without relying on a desktop environment is pretty important. After all, what's the point of logging in if we can't go anywhere?
 
-![[Pasted image 20210705124110.png]]
+![](Pastedimage20210705124110.png)
 
 ### Listing Files in Our Current Directory (ls)
 
@@ -298,7 +298,7 @@ Linux operators are a fantastic way to power up your knowledge of working with L
 
 At an overview, I'm going to be showcasing the following operators:
 
-![[Pasted image 20210705124445.png]]
+![](Pastedimage20210705124445.png)
 
 Let's cover these in a bit more detail.  
   
