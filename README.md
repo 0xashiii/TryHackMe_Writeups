@@ -10,12 +10,12 @@
 - [Linux Fundamentals Part 3](https://github.com/0xashiii/TryHackMe_Writeups/blob/main/Linux%20Part%203/Linux%20Fundamentals%20Part%203.md) : Power-up your Linux skills and get hands-on with some common utilities that you are likely to use day-to-day!
 
 
-### # Network Exploitation Basics
+### Network Exploitation Basics
 
-- [Introductory Networking]() : 
-- [Nmap]() : 
-- [Network Services]() : 
-- [Network Services 2]() : 
+- [Introductory Networking](https://github.com/0xashiii/TryHackMe_Writeups/blob/main/Introductory%20Networking/README.md) : An introduction to networking theory and basic networking tools
+- [Nmap](https://github.com/0xashiii/TryHackMe_Writeups/blob/main/Nmap/README.md) : An in depth look at scanning with Nmap, a powerful network scanning tool.
+- [Network Services](https://github.com/0xashiii/TryHackMe_Writeups/blob/main/Network%20Services/README.md) : Learn about, then enumerate and exploit a variety of network services and misconfigurations.
+- [Network Services 2](https://github.com/0xashiii/TryHackMe_Writeups/blob/main/Network%20Services%202/README.md) : Enumerating and Exploiting More Common Network Services & Misconfigurations
 
 
 ### Network Fundamentals
